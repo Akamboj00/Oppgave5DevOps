@@ -27,5 +27,5 @@ jobs:
           docker build . -t hello:$rev
           docker tag hello:$rev 244530008913.dkr.ecr.eu-west-1.amazonaws.com/glenn:$rev
           docker tag hello:$rev 244530008913.dkr.ecr.eu-west-1.amazonaws.com/glenn:latest
-          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/glenn:$rev
-          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/glenn:latest
+          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/abka007:$rev
+          docker push 244530008913.dkr.ecr.eu-west-1.amazonaws.com/abka007:latest
